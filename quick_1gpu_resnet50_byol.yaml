@@ -127,7 +127,7 @@ config:
     DEVICE: gpu
   CHECKPOINT:
     DIR: "."
-    AUTO_RESUME: False 
+    AUTO_RESUME: True 
     CHECKPOINT_FREQUENCY: 1
     OVERWRITE_EXISTING: true
 
